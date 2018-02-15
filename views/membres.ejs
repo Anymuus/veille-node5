@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+	 	<meta charset="UTF-8">
+	 	<title>Mon Application</title>
+	</head>
+	<body>
+		 Node.js, Express et MongoDB.
+	<button id='update'>Mise à jour téléphone</button>
+	
+
+	 <table class="tableau">
+		 <% adresses.forEach(elm => {%>
+		 <tr>
+		 <td><%= elm.id %></td>
+		 <td><%= elm.prenom%></td>
+		 <td><%= elm.nom %></td>
+		 <td><%= elm.telephone %></td>
+		 <td><%= elm.courriel %></td>
+		 </tr>
+		 <% }) %>
+	 </table>
+	</body>
+</html>

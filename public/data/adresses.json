@@ -13,4 +13,11 @@
       "nom" : "Luc Marcil",
      "telephone" : "514-222-9233",
      "id": 3    
-   },{"prenom":"Qwerty","nom":"Zaq","telephone":"12378954","courriel":"Qwerza@gmail.com"}
+   },
+
+   {
+      "prenom":"Qwerty",
+      "nom":"Zaq",
+      "telephone":"12378954",
+    "courriel":"Qwerza@gmail.com"
+  }
